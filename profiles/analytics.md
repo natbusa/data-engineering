@@ -2,7 +2,6 @@
  - Infra
  - Data
  - Analytics
- - AI/ML
 
 ### Infra Engineering
 
