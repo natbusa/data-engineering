@@ -7,4 +7,4 @@
  - AI/ML
 
 ## Resources
- - [data resources](data.md)
+ - [data resources](resources.md)
