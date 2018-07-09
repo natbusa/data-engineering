@@ -2,7 +2,7 @@
 
 ## Learning
 
-Personally, I think the best guides today are on the web, either in the form of webbooks, articles, but above all by the documentation available from the project websites themselves. Nonetheless, I am listing here below a number of bespoken books for data analytics for bed time reading.
+Personally, I think the best guides today are on the web, either in the form of webbooks, articles, but above all as docs, tutorials, and get started pages from their respective project websites. Nonetheless, I am listing here below a number of bespoken books for data engineering and analytics for bed time reading. Next to that you will find a list of web resources for further digging.
 
 ### Books
 
@@ -104,7 +104,7 @@ Personally, I think the best guides today are on the web, either in the form of 
  HoloViews is an Python library designed to make data analysis and visualization seamless and simple. It uses a declarative approach to visualization.
  - [Altair](https://altair-viz.github.io/index.html):
  Altair is a declarative statistical visualization library for Python, based on Vega and Vega-Lite
- 
+
 ### Data Ops
  - Spark tuning
  - Dask-distributed
