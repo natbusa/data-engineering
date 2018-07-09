@@ -105,11 +105,22 @@ Personally, I think the best guides today are on the web, either in the form of 
  - [Altair](https://altair-viz.github.io/index.html):
  Altair is a declarative statistical visualization library for Python, based on Vega and Vega-Lite
 
+### Infra Ops Stacks
+  - Canonical: MAAS, Juju, Snappy OS
+  - Red Hat: Tectonic, Ansible, Openshift, CoreOS, Flannel
+  - Pivotal: Bosh, Kubo
+  - Hashicorp: Terraform, Packer
+  - Openstack: Heat,
+  - "Indie": Cobbler, Puppet, RancherOS, Calico
+
 ### Data Ops
- - Spark tuning
- - Dask-distributed
+ - Spark Orchestration
+ - Dask Distributed
+ - Tensorflow/Keras Distributed
+ - Jupyter Hub
  - Concourse
- - Jupyter
+
+## Stack
 
 ### Infra/Dev Ops
  - Docker
@@ -119,19 +130,7 @@ Personally, I think the best guides today are on the web, either in the form of 
  - Packer
  - MAAS
 
-### Infra Ops Stacks
- - Canonical: MAAS, Juju, Snappy OS
- - Red Hat: Tectonic, Ansible, Openshift, CoreOS, Flannel
- - Pivotal: Bosh, Kubo
- - Hashicorp: Terraform, Packer
- - Openstack: Heat,
- - "Indie": Cobbler, Puppet, RancherOS, Calico
-
-### Kubernetes Ecosystem
-
-## Stack
-
-### Layers
+### Data Layers/Components
   - MAAS
   - Kubernetes
   - Spark
