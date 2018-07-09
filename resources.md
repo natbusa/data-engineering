@@ -27,11 +27,19 @@ Personally, I think the best guides today are on the web, either in the form of 
  - [Pandas Cookbook](https://www.amazon.com/dp/1784393878)
  - [Python Data Science Handbook](https://www.amazon.com/_/dp/1491912057)
  - [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://www.amazon.com/_/dp/1491962291)
+ - [Doing Math with Python](https://www.amazon.com/dp/1593276400)
+ - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
+ - [Python for Data Analysis](https://www.amazon.com/_/dp/1491957662)
 
 #### API design
  - [Flask Web Development](https://www.amazon.com/_/dp/1449372627)
  - [Building Microservices: Designing Fine-Grained Systems](https://www.amazon.com/_/dp/1491950358)
- - []
+ - [RESTFul Web Services - The Python Flask Way](https://www.amazon.com/_/dp/B07CP57W95)
+
+#### Programming in Python
+ - [Python Crash Course: A Hands-On Introduction to Programming](https://www.amazon.com/_/dp/1593276036)
+ - [Learning Python](https://www.amazon.com/_/dp/1449355730)
+ - [Automate the Boring Stuff with Python](https://www.amazon.com/_/dp/1593275994)
 
 #### Security
 - [LDAP System Administration](https://www.amazon.com/_/dp/1565924916)
@@ -48,6 +56,7 @@ Personally, I think the best guides today are on the web, either in the form of 
    - [React Design Patterns and Best Practices](https://www.amazon.com/_/dp/1786464535)
    - [Learning React](https://www.amazon.com/_/dp/1491954620)
  - Angular
+   - [Learn Angular: The Collection](https://www.amazon.com/_/dp/B07DTXNJRY)
  - Polymer
 
 #### Curated Resources
@@ -56,10 +65,11 @@ Personally, I think the best guides today are on the web, either in the form of 
  - https://github.com/ramitsurana/awesome-kubernetes
  - https://github.com/vinta/awesome-python
  - https://github.com/sbilly/awesome-security
+ - https://github.com/bulutyazilim/awesome-datascience
+ - https://github.com/awesomedata/awesome-public-datasets
+ - https://github.com/mikewootini/awesome-devops
 
 #### Github
-
-
 
 ## Data Systems
 ### Analytics
@@ -84,18 +94,24 @@ Personally, I think the best guides today are on the web, either in the form of 
  - [Arrow](https://arrow.apache.org/  )
 
 ### Visualization
- - Dash
- - Bokeh
- - Matplotlib
- - Holoviews
-
+ - [Dash](https://plot.ly/products/dash/):
+ Dash is a Python framework for building analytical web applications.
+ - [Bokeh](https://bokeh.pydata.org/en/latest/):
+ Bokeh is an interactive visualization library that targets modern web browsers for presentation
+ - [Matplotlib](https://matplotlib.org/):
+ Matplotlib is a Python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms.
+ - [Holoviews](http://holoviews.org/):
+ HoloViews is an Python library designed to make data analysis and visualization seamless and simple. It uses a declarative approach to visualization.
+ - [Altair](https://altair-viz.github.io/index.html):
+ Altair is a declarative statistical visualization library for Python, based on Vega and Vega-Lite
+ 
 ### Data Ops
  - Spark tuning
  - Dask-distributed
  - Concourse
  - Jupyter
 
-### Dev Ops
+### Infra/Dev Ops
  - Docker
  - Kubernetes
  - Concourse
@@ -103,7 +119,7 @@ Personally, I think the best guides today are on the web, either in the form of 
  - Packer
  - MAAS
 
-### Dev-Ops Stacks
+### Infra Ops Stacks
  - Canonical: MAAS, Juju, Snappy OS
  - Red Hat: Tectonic, Ansible, Openshift, CoreOS, Flannel
  - Pivotal: Bosh, Kubo
