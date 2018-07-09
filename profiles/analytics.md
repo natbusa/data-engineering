@@ -1,11 +1,12 @@
 ### Analytics
 
-Teko is looking for a highly motivated hands-on Analytics engineer. This position is responsible for designing and implementing analytics pipelines,  ETL processes, and Data Modeling using both distributed and single node libraries such as Spark, Keras, Tensorflow, Sci-kit Learn, Pandas. You'll be collaborating closely with our engineers and must be able to work efficiently across various teams.
+Teko is looking for a highly motivated hands-on Analytics engineer. This position is responsible for designing and implementing data analytics pipelines, ETL processes using both distributed and single node libraries such as Spark, Keras, Tensorflow, Sci-kit Learn, Pandas. Next to that you will maintain, groom and model data to best fit the ETL workload. You'll be collaborating closely with our engineers and must be able to work efficiently across various teams.
 
 #### Responsibilities
- - Collaborate with multiple teams and build Analytics.
- - Manage Data, groom, model and maintain semantics of data objects
- - Produce SQL and ML queries and processing
+ - Manage data objects, models and formats
+ - Groom, document and maintain semantics of data objects.
+ - Produce SQL and ML queries and ETL processing
+ - Build Analytics pipelines.
  - Build and Deploy Analytical Dashboards and APIs
 
 #### Basic Qualifications
@@ -13,9 +14,11 @@ Teko is looking for a highly motivated hands-on Analytics engineer. This positio
  - Experience with ETL pipelines to transform data from a variety of data sources to a normalized form
  - Extended experience of software development (Python, Scala)
  - Experience with database design and SQL/NoSQL datastores
- - Experience with SQL
- - Experience with Kubernetes.
- - Experience with Private cloud (vmware/openstack) is a plus
+ - Experience with Cassandra.
+ - Experience with Pandas.
+ - Experience with Spark.
+ - Experience with Jupyter.
+ - Experience with Kubernetes is a plus.
  - Experience with Agile and Scrum
 
 #### Preferred Qualifications
