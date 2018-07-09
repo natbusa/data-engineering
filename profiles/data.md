@@ -23,7 +23,10 @@ Teko is looking for a highly motivated hands-on Data engineer. This position is 
  - Experience with Concourse is a plus
  - Experience with Agile and Scrum
 
-#### Test
+#### Hiring Test
 Download the dataset of taxi trips in New York  https://www.kaggle.com/kentonnlp/2014-new-york-city-taxi-trips
 Build a data pipeline for analytics, produce the results in ELK.
 Bonus: Automate the pipeline with Concourse.
+
+#### Contact
+Provide the repo (github, gitlab, etc) of your solution to the hiring test, attach your latest CV to your email and send it to tuyendung@teko.vn hashtag #datateam in the subject line

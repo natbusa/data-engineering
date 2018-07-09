@@ -24,6 +24,9 @@ Excellent verbal and written communication skills; strong attention to detail
 Passion to automate more, learn new software tools and technologies
 Natural aptitude for both teaching and learning from others in a collaborative team environment
 
-#### Test
+#### Hiring Test
 Build a setup to deploy Cassandra on kubernetes.  
 Bonus: expose the setup with a RESTful API.
+
+#### Contact
+Provide the repo (github, gitlab, etc) of your solution to the hiring test, attach your latest CV to your email and send it to tuyendung@teko.vn hashtag #datateam in the subject line

@@ -26,7 +26,10 @@ Excellent verbal and written communication skills; strong attention to detail
 Passion to automate more, learn new software tools and technologies
 Natural aptitude for both teaching and learning from others in a collaborative team environment
 
-#### Test
+#### Hiring Test
 Download the dataset of taxi trips in New York  https://www.kaggle.com/kentonnlp/2014-new-york-city-taxi-trips
 Write a notebook with descriptive queries in Spark, Pandas and visualize the results (matplotlib, bokeh, holoviews, seaborn).
 Bonus: Expose the result in a web dashboard using Dash (https://dash.plot.ly/)
+
+#### Contact
+Provide the repo (github, gitlab, etc) of your solution to the hiring test, attach your latest CV to your email and send it to tuyendung@teko.vn hashtag #datateam in the subject line
