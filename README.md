@@ -9,6 +9,14 @@ Profiles share both a Dev and Production Load.
  - 1x [DevOps](profiles/devops.md) (Stack automation,, Containers and Platform as a service)
  - 2x [Data Engineer](profiles/data.md) (Data Pipelines, Hadoop and Kubernetes services, Data Automation, Data as a Service)
  - 3x [Analytics](profiles/analytics.md) (1x Ingestion, 1x Analytics, 1x Real-Time Apps)
+ - 1x [Front-End Dev](profiles/frontend.md) (Web and Js developer, web and mobile apps)
+
+Extended team: for small scale projects, above profiles can cover the  extended team's tasks:
+
+ - 1x Network Architect
+ - 1x Security Engineer
+ - 1x Community Writer
+ - 1x Viz Developer
 
 ## Principles
 
