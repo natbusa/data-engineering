@@ -6,7 +6,7 @@ How would you bootstrap a Data Team? Here below a "laundry list" of tasks, resou
 
 Profiles share both a Dev and Production Load.
  - 1x [Infra]() (Metal, Physical)
- - 1x [DevOps](profiles/infra.md) (Stack automation, Metal as a service)
+ - 1x [DevOps](profiles/infra.md) (Stack automation, Metal as a service, Containers and Data as a service)
  - 2x [Data Engineer](profiles/data.md) (Data Pipelines, Hadoop and Kubernetes services, Data Automation, Data as a Service)
  - 3x [Analytics](profiles/analytics.md) (1x Ingestion, 1x Analytics, 1x Real-Time Apps)
 
