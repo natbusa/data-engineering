@@ -37,12 +37,22 @@ When testing different strategies for the customer, you want to know how well ea
 
 ### UX automation
 
-   - auto-complete,
-   - auto-suggest,
-   - auto-compare,
-   - auto-search,
-   - auto-navigate
+ - auto-complete,
+ - auto-suggest,
+ - auto-compare,
+ - auto-search,
+ - auto-navigate
 
 Auto-complete, the first generation assistant, simply uses the reverse index (aka word list) to look up words matching the characters the user has entered so far. The most relevant suggestions are identified using frequency information from the word list.
 
-Auto-Suggest:Simply looking up words starting with the same letters soon was not good enough anymore. Users wanted to have real suggestions, even if they didn’t know the exact spelling – or would you know how to spell José Manuel Barroso’s1 last name correctly?
+Auto-Suggest:Simply looking up words starting with the same letters soon was not good enough anymore. Users wanted to have real suggestions, even if they didn’t know the exact spelling – or would you know how to spell José Manuel Barroso’s last name correctly?
+
+### Data mining
+
+  - entity extraction
+  - model extraction
+  - consistency detection
+  - summary extraction
+  - image featurization
+  - auto tagging
+  - auto classification
