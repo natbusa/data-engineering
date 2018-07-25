@@ -40,7 +40,7 @@ Passion to automate more, learn new software tools and technologies
 Natural aptitude for both teaching and learning from others in a collaborative team environment
 
 #### Hiring Test
-Build an OCR system using keras which is able to correctly convert [this jpeg image](data/20000-leagues-006.jpg) to text. Reference: [20'000 leagues under the sea](https://marswillsendnomore.wordpress.com/tag/20000-leagues-under-the-sea/)
+Build an OCR system using keras which is able to correctly convert [this jpeg image](../data/20000-leagues-006.jpg) to text. Reference: [20'000 leagues under the sea](https://marswillsendnomore.wordpress.com/tag/20000-leagues-under-the-sea/)
 
 #### Contact
 Provide the repo (github, gitlab, etc) of your solution to the hiring test, attach your latest CV to your email and send it to tuyendung@teko.vn hashtag #datateam in the subject line
