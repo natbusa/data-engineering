@@ -7,8 +7,9 @@ How would you bootstrap a Data Team? Here below a "laundry list" of tasks, resou
 Profiles share both a Dev and Production Load.
  - 1x [Infra](profiles/infra.md) (Metal, Physical, Metal as a service, IaaS)
  - 1x [DevOps](profiles/devops.md) (Stack automation,, Containers and Platform as a service)
- - 2x [Data Engineer](profiles/data.md) (Data Pipelines, Hadoop and Kubernetes services, Data Automation, Data as a Service)
- - 3x [Analytics](profiles/analytics.md) (1x Ingestion, 1x Analytics, 1x Real-Time Apps)
+ - 2x [Data Engineer](profiles/data.md) (Data Pipelines, Data Automation, Data as a Service, Data Ingestion)
+ - 2x [Analytics](profiles/analytics.md) (1x Batch Analytics, 1x Real-Time Analytics and Predictive APIs)
+ - 1x [AI and ML](profiles/ai.md) (Machine Learning and AI algorithms)
  - 1x [Front-End Dev](profiles/frontend.md) (Web and Js developer, web and mobile apps)
 
 Extended team: for small scale projects, above profiles can cover the  extended team's tasks:
@@ -20,11 +21,12 @@ Extended team: for small scale projects, above profiles can cover the  extended 
 
 ## Principles
 
- - Python is the default language for all the data stack.
+ - Python is the default language for the data stack.
  - Engineers over Scientists
  - Convention over Configuration over Coding.
  - Re-use over Integrate over Build.
  - Service Oriented (CLI, Web HTTP APIs , Python Libraries)
+ - Be kind, be curious
 
 ## Hardware
 
@@ -54,3 +56,20 @@ Compute 4 sockets
 
 ## Resources
  - [data resources](resources.md)
+
+## Use cases
+Refer to [usecases.md](usecases.md) for a more detailed description of the following e-retail and e-commerce use cases.
+
+ -  Recommendation engines
+ -  Market basket analysis
+ -  Warranty analytics
+ -  Price optimization
+ -  Inventory management
+ -  Customer sentiment analysis
+ -  Merchandising
+ -  Lifetime value prediction
+ -  Fraud detection
+ -  Option Selection (A/B testing)
+ -  UX automation
+ -  Data mining
+ -  Chatbots
