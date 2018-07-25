@@ -1,4 +1,4 @@
-### Infra Engineering
+### AI & ML Engineering
 
 Teko is looking for a highly motivated AI and ML engineer. This position is responsible for designing and implementing ML solutions on [e-retail and e-commerce use cases](usecases.md). You'll be collaborating closely with our engineers and must be able to work efficiently across various teams.
 

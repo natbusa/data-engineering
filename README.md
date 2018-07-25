@@ -17,7 +17,7 @@ Extended team: for small scale projects, above profiles can cover the  extended 
  - 1x Network Architect
  - 1x Security Engineer
  - 1x Community Writer
- - 1x Viz Developer
+ - 1x Data Viz Developer
 
 ## Principles
 
