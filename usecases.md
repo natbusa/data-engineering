@@ -50,9 +50,10 @@ Auto-Suggest:Simply looking up words starting with the same letters soon was not
 ### Data mining
 
   - entity extraction
-  - model extraction
+  - feature extraction
   - consistency detection
   - summary extraction
   - image featurization
   - auto tagging
   - auto classification
+  - knowledge graph
