@@ -9,6 +9,14 @@ Teko is looking for a highly motivated AI and ML engineer. This position is resp
  - Implement and port ML algorithms from papers, blogs and other publications/sources.
  - Document AI/ML solutions in a clear and understandable way
  - Explain and Share AI/ML results with blogs and demos
+ - Develop ML APIs:
+   - Pragmatic approach
+   - Lean and incremental design
+   - Engineering first
+   - Curious and crafty
+
+#### Basic Qualifications
+ - BS in Computer Science or similar field of study
  - Deep understanding of Algebra, Calculus and Statistics
  - Deep understanding of Machine Learning principles such as:
    - bias/variance tradeoff,
@@ -28,11 +36,6 @@ Teko is looking for a highly motivated AI and ML engineer. This position is resp
    - Scipy, Numpy, Pandas
    - Scikit Learn
    - Xboost
- - Develop ML APIs:
-   - Pragmatic approach
-   - Lean and incremental design
-   - Engineering first
-   - Curious and crafty
 
 #### Preferred Qualifications
 Excellent verbal and written communication skills; strong attention to detail
