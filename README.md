@@ -24,6 +24,8 @@ Extended team: for small scale projects, above profiles can cover the  extended 
  - Python is the default language for the data stack.
  - Engineers over Scientists
  - Convention over Configuration over Coding.
+ - More thinking less typing
+ - Keep it simple
  - Re-use over Integrate over Build.
  - Service Oriented (CLI, Web HTTP APIs , Python Libraries)
  - Be kind, be curious
@@ -73,3 +75,22 @@ Refer to [usecases.md](usecases.md) for a more detailed description of the follo
  -  UX automation
  -  Data mining
  -  Chatbots
+
+## Data Science
+Data science must be conducted with a predictable and well defined process.  
+All experiments should be conducted according to the following steps:
+
+ 1. problem statement
+ 2. hypotheses and assumptions
+ 3. expected results
+ 4. sketched solution
+ 5. validate assumptions
+ 6. collect results
+ 7. analyze results
+ 8. story telling
+ 9. lessons learned
+ 
+Main focus on data science is to understand the why's behind the numbers. So it's very important to:
+ - be critical on both results and assumptions
+ - no opinions but maths, statitics evidence
+ 
