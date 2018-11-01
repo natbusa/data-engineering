@@ -92,5 +92,5 @@ All experiments should be conducted according to the following steps:
  
 Main focus on data science is to understand the why's behind the numbers. So it's very important to:
  - be critical on both results and assumptions
- - no opinions but maths, statitics evidence
+ - no opinions but vidence based on maths, in particular statitics
  
