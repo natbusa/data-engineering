@@ -58,6 +58,7 @@ Compute 4 sockets
 
 ## Resources
  - [data resources](resources.md)
+ - [datalabframework](
 
 ## Use cases
 Refer to [usecases.md](usecases.md) for a more detailed description of the following e-retail and e-commerce use cases.
