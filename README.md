@@ -36,9 +36,21 @@ Spark is a library with many cohexisting layers, mostly because of back compatib
 
  - pyspark only (https://spark.apache.org/docs/latest/api/python/)
  - Learn ONLY the modules: pyspark.sql and pyspark.ml
- - Skip anything related to Scala, Java, R (according to the obove general principle)
+ - Skip anything related to Scala, Java, R (according to the above general principle)
  - Skip cathegorically anything about RDDs, Map-Reduce, and MLlib
+ 
+#### Git
+Git is meant for people to experiment, develop and merge working code on a common master branch.   
+Please follow the given principles. 
+ - No working branches on the shared remote (gitlab/github) repo
+ - Pull requests over commits
+ - Diff and Test the code *before* commiting
 
+Best way of working: 
+ - fork the remote common repository from gitlab/github
+ - add mutliple remotes to keep track on changes and rebase/marge if necessary
+ - commit to your remote and pull request to the main repo.
+ 
 ## Hardware
 
 Storage 2-sockets  
