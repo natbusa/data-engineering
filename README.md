@@ -30,6 +30,15 @@ Extended team: for small scale projects, above profiles can cover the  extended 
  - Service Oriented (CLI, Web HTTP APIs , Python Libraries)
  - Be kind, be curious
 
+### Tools Specific Principles
+#### Spark
+Spark is a library with many cohexisting layers, mostly because of back compatibility some of this APIs are still around both in the tool as well on the web with many Q&A still going round. When learning Spark please follow the following principles:
+
+ - pyspark only (https://spark.apache.org/docs/latest/api/python/)
+ - Learn ONLY the modules: pyspark.sql and pyspark.ml
+ - Skip anything related to Scala, Java, R (according to the obove general principle)
+ - Skip cathegorically anything about RDDs, Map-Reduce, and MLlib
+
 ## Hardware
 
 Storage 2-sockets  
