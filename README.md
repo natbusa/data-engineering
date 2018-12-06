@@ -32,24 +32,24 @@ Read, learn, memorize and *practice* the following:
 
  - spark:  
  from http://spark.apache.org/docs/latest/sql-programming-guide.html
-   -  sql-data-sources-avro
-   -  sql-data-sources-hive-tables
-   -  sql-data-sources-jdbc
-   -  sql-data-sources-json
-   -  sql-data-sources-load-save-functions
-   -  sql-data-sources-orc
-   -  sql-data-sources-parquet
-   -  sql-data-sources-troubleshooting
-   -  sql-data-sources
-   -  sql-distributed-sql-engine
-   -  sql-getting-started
-   -  sql-migration-guide-hive-compatibility
-   -  sql-migration-guide-upgrade
-   -  sql-migration-guide
-   -  sql-performance-tuning
-   -  sql-programming-guide
-   -  sql-pyspark-pandas-with-arrow
-   -  sql-reference
+   - http://spark.apache.org/docs/latest/sql-data-sources-avro.html
+   - http://spark.apache.org/docs/latest/sql-data-sources-hive-tables.html
+   - http://spark.apache.org/docs/latest/sql-data-sources-jdbc.html
+   - http://spark.apache.org/docs/latest/sql-data-sources-json.html
+   - http://spark.apache.org/docs/latest/sql-data-sources-load-save-functions.html
+   - http://spark.apache.org/docs/latest/sql-data-sources-orc.html
+   - http://spark.apache.org/docs/latest/sql-data-sources-parquet.html
+   - http://spark.apache.org/docs/latest/sql-data-sources-troubleshooting.html
+   - http://spark.apache.org/docs/latest/sql-data-sources.html
+   - http://spark.apache.org/docs/latest/sql-distributed-sql-engine.html
+   - http://spark.apache.org/docs/latest/sql-getting-started.html
+   - http://spark.apache.org/docs/latest/sql-migration-guide-hive-compatibility.html
+   - http://spark.apache.org/docs/latest/sql-migration-guide-upgrade.html
+   - http://spark.apache.org/docs/latest/sql-migration-guide.html
+   - http://spark.apache.org/docs/latest/sql-performance-tuning.html
+   - http://spark.apache.org/docs/latest/sql-pyspark-pandas-with-arrow.html
+   - http://spark.apache.org/docs/latest/sql-reference.html
+
 from pyspark python documentation:
    - http://spark.apache.org/docs/latest/api/python/pyspark.html
    - http://spark.apache.org/docs/latest/api/python/pyspark.sql.html
