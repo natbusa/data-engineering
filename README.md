@@ -72,7 +72,7 @@ Spark is a library with many cohexisting layers, mostly because of back compatib
  - pyspark only (https://spark.apache.org/docs/latest/api/python/)
  - Learn ONLY the modules: pyspark.sql and pyspark.ml
  - Skip anything related to Scala, Java, R (according to the above general principle)
- - Skip cathegorically anything about RDDs, Map-Reduce, and MLlib
+ - Skip categorically anything about RDDs, Map-Reduce, and MLlib
  
 #### Git
 Git is meant for people to experiment, develop and merge working code on a common master branch.   
@@ -83,7 +83,7 @@ Please follow the given principles.
 
 Best way of working: 
  - fork the remote common repository from gitlab/github
- - add mutliple remotes to keep track on changes and rebase/marge if necessary
+ - add multiple remotes to keep track on changes and rebase/marge if necessary
  - commit to your remote and pull request to the main repo.
  
 ## Hardware
@@ -149,5 +149,5 @@ All experiments should be conducted according to the following steps:
  
 Main focus on data science is to understand the why's behind the numbers. So it's very important to:
  - be critical on both results and assumptions
- - no opinions but vidence based on maths, in particular statitics
+ - no opinions but evidence based on maths, in particular statistics
  
