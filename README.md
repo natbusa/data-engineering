@@ -18,6 +18,41 @@ Extended team: for small scale projects, above profiles can cover the  extended 
  - 1x Security Engineer
  - 1x Community Writer
  - 1x Data Viz Developer
+ 
+### Getting started team
+Read, learn, memorize and *practice* the following:
+ - python
+   - https://docs.python.org/3/tutorial/
+   - https://docs.python.org/3/library/
+   - https://docs.python.org/3/reference/datamodel.html
+ 
+ - bash commands and Makefile:
+   - http://oliverelliott.org/article/computing/ref_unix/
+   - https://www.gnu.org/software/make/manual/make.html
+
+ - spark:  
+ from http://spark.apache.org/docs/latest/sql-programming-guide.html
+   -  sql-data-sources-avro
+   -  sql-data-sources-hive-tables
+   -  sql-data-sources-jdbc
+   -  sql-data-sources-json
+   -  sql-data-sources-load-save-functions
+   -  sql-data-sources-orc
+   -  sql-data-sources-parquet
+   -  sql-data-sources-troubleshooting
+   -  sql-data-sources
+   -  sql-distributed-sql-engine
+   -  sql-getting-started
+   -  sql-migration-guide-hive-compatibility
+   -  sql-migration-guide-upgrade
+   -  sql-migration-guide
+   -  sql-performance-tuning
+   -  sql-programming-guide
+   -  sql-pyspark-pandas-with-arrow
+   -  sql-reference
+from pyspark python documentation:
+   - http://spark.apache.org/docs/latest/api/python/pyspark.html
+   - http://spark.apache.org/docs/latest/api/python/pyspark.sql.html
 
 ## Principles
 
