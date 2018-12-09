@@ -87,4 +87,28 @@ Provisioning:
       - Managing Streaming
     - boostrapping
 
+## Workshop
 
+2 hours workshop
+audience: BI, data science, data engineering, devops and application teams
+
+ - Teko
+   - Intro, principles and architecture (Nat) (10 min)
+   - Services overview (Dzung) (10 min)
+   - Ingestion (Tuan Anh) (10 min)
+   - ETL and Reporting (Hung) (10 min)
+   - Data Services (Data Science) (Thuc) ( 10 min )
+   - Data Services (API and UI) (?) ( 10 min )
+ 
+ - -break- (5 min) 
+ 
+ - VnPay
+   - Data Model and Flow (Huong) (10 min)
+   - ETL VnPay (Quan) (10 min)
+   - ETL VnPay Reporting (Tuan Anh) (10 min)
+ 
+ - Future plans, Roadmap, Vision (Nat)
+ - Q&A (all)
+ 
+ 
+ 
