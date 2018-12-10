@@ -107,7 +107,7 @@ audience: BI, data science, data engineering, devops and application teams
  - VnPay
    - Data Model and Flow (Huong) (10 min)
    - ETL VnPay (Quan) (10 min)
-   - ETL VnPay Reporting (Tuan Anh) (10 min)
+   - ETL VnPay Reporting (Tuan) (10 min)
  
  - Future plans, Roadmap, Vision (Nat)
  - Q&A (all)
