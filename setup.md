@@ -96,6 +96,10 @@ audience: BI, data science, data engineering, devops and application teams
    - Intro, principles and architecture (Nat) (10 min)
    - Services overview (Dzung) (10 min)
    - Ingestion (Tuan Anh) (10 min)
+      - list of database and tables (status)
+      - options for read and write (incremental vs full table scan)
+      - diagram (source -> notebook -> gitlab ci -> hdfs)
+      - future plans and improvements
    - ETL and Reporting (Hung) (10 min)
    
    - Data Services (Data Science) (Thuc) ( 10 min )
