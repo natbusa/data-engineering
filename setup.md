@@ -95,11 +95,22 @@ audience: BI, data science, data engineering, devops and application teams
  - Teko
    - Intro, principles and architecture (Nat) (10 min)
    - Services overview (Dzung) (10 min)
+      - Spark UI
+      - Spark History
+      - Spark thrift server
+      
+      - JupyterHub
+      - HDFS (UI)
+      - Gitlab CI/CD
+      - BI tools: Redash
+      
+      
    - Ingestion (Tuan Anh) (10 min)
       - list of database and tables (status)
       - options for read and write (incremental vs full table scan)
       - diagram (source -> notebook -> gitlab ci -> hdfs)
       - future plans and improvements
+      
    - ETL and Reporting (Hung) (10 min)
    
    - Data Services (Data Science) (Thuc) ( 10 min )
@@ -114,6 +125,12 @@ audience: BI, data science, data engineering, devops and application teams
    - ETL VnPay Reporting (Tuan) (10 min)
  
  - Future plans, Roadmap, Vision (Nat)
+    - Minio
+    - Kubernetes
+    - BI connections
+        - Power BI
+        - Tableau
+    
  - Q&A (all)
  
  
