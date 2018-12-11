@@ -98,12 +98,10 @@ audience: BI, data science, data engineering, devops and application teams
       - Spark UI
       - Spark History
       - Spark thrift server
-      
       - JupyterHub
       - HDFS (UI)
       - Gitlab CI/CD
       - BI tools: Redash
-      
       
    - Ingestion (Tuan Anh) (10 min)
       - list of database and tables (status)
