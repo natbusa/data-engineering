@@ -19,14 +19,72 @@ Extended team: for small scale projects, above profiles can cover the  extended 
  - 1x Community Writer
  - 1x Data Viz Developer
 
+### Getting started team
+Read, learn, memorize and *practice* the following:
+ - python
+   - https://docs.python.org/3/tutorial/
+   - https://docs.python.org/3/library/
+   - https://docs.python.org/3/reference/datamodel.html
+
+ - bash commands and Makefile:
+   - http://oliverelliott.org/article/computing/ref_unix/
+   - https://www.gnu.org/software/make/manual/make.html
+
+ - spark:  
+ from http://spark.apache.org/docs/latest/sql-programming-guide.html
+   - http://spark.apache.org/docs/latest/sql-data-sources-avro.html
+   - http://spark.apache.org/docs/latest/sql-data-sources-hive-tables.html
+   - http://spark.apache.org/docs/latest/sql-data-sources-jdbc.html
+   - http://spark.apache.org/docs/latest/sql-data-sources-json.html
+   - http://spark.apache.org/docs/latest/sql-data-sources-load-save-functions.html
+   - http://spark.apache.org/docs/latest/sql-data-sources-orc.html
+   - http://spark.apache.org/docs/latest/sql-data-sources-parquet.html
+   - http://spark.apache.org/docs/latest/sql-data-sources-troubleshooting.html
+   - http://spark.apache.org/docs/latest/sql-data-sources.html
+   - http://spark.apache.org/docs/latest/sql-distributed-sql-engine.html
+   - http://spark.apache.org/docs/latest/sql-getting-started.html
+   - http://spark.apache.org/docs/latest/sql-migration-guide-hive-compatibility.html
+   - http://spark.apache.org/docs/latest/sql-migration-guide-upgrade.html
+   - http://spark.apache.org/docs/latest/sql-migration-guide.html
+   - http://spark.apache.org/docs/latest/sql-performance-tuning.html
+   - http://spark.apache.org/docs/latest/sql-pyspark-pandas-with-arrow.html
+   - http://spark.apache.org/docs/latest/sql-reference.html
+
+from pyspark python documentation:
+   - http://spark.apache.org/docs/latest/api/python/pyspark.html
+   - http://spark.apache.org/docs/latest/api/python/pyspark.sql.html
+
 ## Principles
 
  - Python is the default language for the data stack.
  - Engineers over Scientists
  - Convention over Configuration over Coding.
+ - More thinking less typing
+ - Keep it simple
  - Re-use over Integrate over Build.
  - Service Oriented (CLI, Web HTTP APIs , Python Libraries)
  - Be kind, be curious
+
+### Tools Specific Principles
+#### Spark
+Spark is a library with many cohexisting layers, mostly because of back compatibility some of this APIs are still around both in the tool as well on the web with many Q&A still going round. When learning Spark please follow the following principles:
+
+ - pyspark only (https://spark.apache.org/docs/latest/api/python/)
+ - Learn ONLY the modules: pyspark.sql and pyspark.ml
+ - Skip anything related to Scala, Java, R (according to the above general principle)
+ - Skip categorically anything about RDDs, Map-Reduce, and MLlib
+
+#### Git
+Git is meant for people to experiment, develop and merge working code on a common master branch.   
+Please follow the given principles.
+ - No working branches on the shared remote (gitlab/github) repo
+ - Pull requests over commits
+ - Diff and Test the code *before* commiting
+
+Best way of working:
+ - fork the remote common repository from gitlab/github
+ - add multiple remotes to keep track on changes and rebase/marge if necessary
+ - commit to your remote and pull request to the main repo.
 
 ## Hardware
 
@@ -56,6 +114,7 @@ Compute 4 sockets
 
 ## Resources
  - [data resources](resources.md)
+ - [datalabframework](
 
 ## Use cases
 Refer to [usecases.md](usecases.md) for a more detailed description of the following e-retail and e-commerce use cases.
@@ -74,137 +133,155 @@ Refer to [usecases.md](usecases.md) for a more detailed description of the follo
  -  Data mining
  -  Chatbots
 
-## Architecture
+ ## Architecture
 
- - Management
-   - Versioning: __gitlab__  
-   - CI-CD Framework: __gitlab-ci__  
-   - Resource Management: __Kubernetes__
- 
- - Storage
-   - Storage (Landing Storage): __HDFS__
-   - Storage (Object Store): __Minio__ 
-   - Storage (Block Storage): __Ceph__
- 
- - Data Transport
-   - Pub/Sub Infrastructure: __Kafka__
+  - Management
+    - Versioning: __gitlab__  
+    - CI-CD Framework: __gitlab-ci__  
+    - Resource Management: __Kubernetes__
 
- - Data Analytics
-   - Indexed data: __Elasticsearch__
-   - Ingestion and ETL Framework: __Spark__
-   - Data Science: __Pandas/Scikit-Learn__
-   - BI Visualization: __Kibana__
- 
- - Data Formats:
-    - etl: __parquet__
-    - indexes: __elasticsearch__
-	- ds/ml: __hdf5__
-	- cache: __Redis__
- 
-## Data Architecture
+  - Storage
+    - Storage (Landing Storage): __HDFS__
+    - Storage (Object Store): __Minio__
+    - Storage (Block Storage): __Ceph__
+
+  - Data Transport
+    - Pub/Sub Infrastructure: __Kafka__
+
+  - Data Analytics
+    - Indexed data: __Elasticsearch__
+    - Ingestion and ETL Framework: __Spark__
+    - Data Science: __Pandas/Scikit-Learn__
+    - BI Visualization: __Kibana__
+
+  - Data Formats:
+     - etl: __parquet__
+     - indexes: __elasticsearch__
+ 	- ds/ml: __hdf5__
+ 	- cache: __Redis__
+
+ ## Data Architecture
 
 
 
-### Ingestion Framework
- 
-#### Sources
+ ### Ingestion Framework
 
-  - DBs
-  - Files
-  - Streams
+ #### Sources
 
-#### Targets
+   - DBs
+   - Files
+   - Streams
+
+ #### Targets
+
+   - Change Logs
+   - Table Snapshots
+   - Data Views
+
+ #### Principles and Solutions:
+
+   - Mutable Tables to Immutable Change Logs
+   - Idempotency / Repeatability
+   - Record Schema Changes
+   - Implement validation strategies
+   - Automated Data pipelines
+   - Implement a Data Access Strategy
+   - Define Merge commits behavior
+   - Create Commit Robots/Agents
+   - Define Promotion Strategy
+   - Define a Data Sampling strategy
+
+ #### Monitoring and CI-CD Pipeline:
+   - Dashboard of ingested data
+   - Automation of Ingestion pipeline
+   - Monitor Resources (Compute, Storage, Bandwith, Time)
+
+ #### Data Science / ML:
+
+   - Auto-Config: frequency of ingestion, extraction parameters
+   - Extract columns (datetime, indexes)
+   - Detect outliers in quality of ingested data
+   - Detect duplicated / derivative columns
+
+ #### Watch out for:
+   - Poor Monitoring
+   - Data Loss/Overwrites
+   - Misconfigurations
+   - Poor ACL
+
+
+ ### ETL Framework
+
+ #### Sources
 
   - Change Logs
-  - Table Snapshots
-  - Data Views
+  - Data Tables
+  - Data Objects
 
-#### Principles and Solutions:
+ #### Target
 
-  - Mutable Tables to Immutable Change Logs
-  - Idempotency / Repeatability
-  - Record Schema Changes
-  - Implement validation strategies
-  - Automated Data pipelines
-  - Implement a Data Access Strategy
-  - Define Merge commits behavior
-  - Create Commit Robots/Agents
-  - Define Promotion Strategy
-  - Define a Data Sampling strategy
+  - Stars (Facts and Dimension Tables)
+  - Facts Tables (De-normalized)
+  - Cubes (Aggregated Facts)
 
-#### Monitoring and CI-CD Pipeline:
-  - Dashboard of ingested data
-  - Automation of Ingestion pipeline
+ #### Principles and Solutions
+
+  - Reduce heavy joins
+  - Reproducable reporting
+  - Data Historical validation
+  - Fast dicing/slicing of data
+  - Streaming Analytics
+  - Curated Glossary/Data Dictionary
+  - Curated Data Access
+  - Curated Data secutity/privacy
+  - Rendering of Reports
+  - Solving the Ad-Hoc Reports
+
+ #### Data Science / ML:
+
+  - Attention filtering reports
+  - Smart Joins tables
+  - ETL pipeline tuning
+
+ #### Monitoring and CI-CD Pipeline:
+  - Dashboard of ETL Data
+  - Automate Rendering
+  - Automate ETL Generation
   - Monitor Resources (Compute, Storage, Bandwith, Time)
 
-#### Data Science / ML:
+ #### Watch out for:
+   - No Curated Data
+   - Poor understanding
+   - Data Pollution
+   - Conceptual errors
+   - Poor data monitoring
 
-  - Auto-Config: frequency of ingestion, extraction parameters
-  - Extract columns (datetime, indexes)
-  - Detect outliers in quality of ingested data
-  - Detect duplicated / derivative columns 
+ ### Data Structures
 
-#### Watch out for:
-  - Poor Monitoring
-  - Data Loss/Overwrites
-  - Misconfigurations
-  - Poor ACL
+ From lower to higher abstraction levels:
 
+  - Raw sources
+  - Logs
+  - Stars and Snowflakes
+  - Cubes
+  - Longitudinal
+  - Domain Collections
 
-### ETL Framework
+ =======
+ ## Data Science
+ Data science must be conducted with a predictable and well defined process.  
+ All experiments should be conducted according to the following steps:
 
-#### Sources
+  1. problem statement
+  2. hypotheses and assumptions
+  3. expected results
+  4. sketched solution
+  5. validate assumptions
+  6. collect results
+  7. analyze results
+  8. story telling
+  9. lessons learned
 
- - Change Logs
- - Data Tables
- - Data Objects
- 
-#### Target 
-
- - Stars (Facts and Dimension Tables)
- - Facts Tables (De-normalized)
- - Cubes (Aggregated Facts)
- 
-#### Principles and Solutions
-
- - Reduce heavy joins
- - Reproducable reporting
- - Data Historical validation
- - Fast dicing/slicing of data
- - Streaming Analytics
- - Curated Glossary/Data Dictionary
- - Curated Data Access
- - Curated Data secutity/privacy
- - Rendering of Reports
- - Solving the Ad-Hoc Reports
- 
-#### Data Science / ML:
-
- - Attention filtering reports
- - Smart Joins tables
- - ETL pipeline tuning
- 
-#### Monitoring and CI-CD Pipeline:
- - Dashboard of ETL Data
- - Automate Rendering
- - Automate ETL Generation
- - Monitor Resources (Compute, Storage, Bandwith, Time)
-
-#### Watch out for:
-  - No Curated Data
-  - Poor understanding
-  - Data Pollution
-  - Conceptual errors
-  - Poor data monitoring
-
-### Data Structures
-
-From lower to higher abstraction levels:
-
- - Raw sources
- - Logs
- - Stars and Snowflakes
- - Cubes
- - Longitudinal
- - Domain Collections
-
+ Main focus on data science is to understand the why's behind the numbers. So it's very important to:
+  - be critical on both results and assumptions
+  - no opinions but evidence based on maths, in particular statistics

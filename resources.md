@@ -42,6 +42,8 @@
  - [Python Crash Course: A Hands-On Introduction to Programming](https://www.amazon.com/_/dp/1593276036)
  - [Learning Python](https://www.amazon.com/_/dp/1449355730)
  - [Automate the Boring Stuff with Python](https://www.amazon.com/_/dp/1593275994)
+ - [A whirlwind tour of Python](https://nbviewer.jupyter.org/github/jakevdp/WhirlwindTourOfPython/blob/master/Index.ipynb)
+ - [Fluent Python](https://www.oreilly.com/library/view/fluent-python/9781491946237/)
 
 #### Security
 - [LDAP System Administration](https://www.amazon.com/_/dp/1565924916)
