@@ -73,3 +73,138 @@ Refer to [usecases.md](usecases.md) for a more detailed description of the follo
  -  UX automation
  -  Data mining
  -  Chatbots
+
+## Architecture
+
+ - Management
+   - Versioning: __gitlab__  
+   - CI-CD Framework: __gitlab-ci__  
+   - Resource Management: __Kubernetes__
+ 
+ - Storage
+   - Storage (Landing Storage): __HDFS__
+   - Storage (Object Store): __Minio__ 
+   - Storage (Block Storage): __Ceph__
+ 
+ - Data Transport
+   - Pub/Sub Infrastructure: __Kafka__
+
+ - Data Analytics
+   - Indexed data: __Elasticsearch__
+   - Ingestion and ETL Framework: __Spark__
+   - Data Science: __Pandas/Scikit-Learn__
+   - BI Visualization: __Kibana__
+ 
+ - Data Formats:
+    - etl: __parquet__
+    - indexes: __elasticsearch__
+	- ds/ml: __hdf5__
+	- cache: __Redis__
+ 
+## Data Architecture
+
+
+
+### Ingestion Framework
+ 
+#### Sources
+
+  - DBs
+  - Files
+  - Streams
+
+#### Targets
+
+  - Change Logs
+  - Table Snapshots
+  - Data Views
+
+#### Principles and Solutions:
+
+  - Mutable Tables to Immutable Change Logs
+  - Idempotency / Repeatability
+  - Record Schema Changes
+  - Implement validation strategies
+  - Automated Data pipelines
+  - Implement a Data Access Strategy
+  - Define Merge commits behavior
+  - Create Commit Robots/Agents
+  - Define Promotion Strategy
+  - Define a Data Sampling strategy
+
+#### Monitoring and CI-CD Pipeline:
+  - Dashboard of ingested data
+  - Automation of Ingestion pipeline
+  - Monitor Resources (Compute, Storage, Bandwith, Time)
+
+#### Data Science / ML:
+
+  - Auto-Config: frequency of ingestion, extraction parameters
+  - Extract columns (datetime, indexes)
+  - Detect outliers in quality of ingested data
+  - Detect duplicated / derivative columns 
+
+#### Watch out for:
+  - Poor Monitoring
+  - Data Loss/Overwrites
+  - Misconfigurations
+  - Poor ACL
+
+
+### ETL Framework
+
+#### Sources
+
+ - Change Logs
+ - Data Tables
+ - Data Objects
+ 
+#### Target 
+
+ - Stars (Facts and Dimension Tables)
+ - Facts Tables (De-normalized)
+ - Cubes (Aggregated Facts)
+ 
+#### Principles and Solutions
+
+ - Reduce heavy joins
+ - Reproducable reporting
+ - Data Historical validation
+ - Fast dicing/slicing of data
+ - Streaming Analytics
+ - Curated Glossary/Data Dictionary
+ - Curated Data Access
+ - Curated Data secutity/privacy
+ - Rendering of Reports
+ - Solving the Ad-Hoc Reports
+ 
+#### Data Science / ML:
+
+ - Attention filtering reports
+ - Smart Joins tables
+ - ETL pipeline tuning
+ 
+#### Monitoring and CI-CD Pipeline:
+ - Dashboard of ETL Data
+ - Automate Rendering
+ - Automate ETL Generation
+ - Monitor Resources (Compute, Storage, Bandwith, Time)
+
+#### Watch out for:
+  - No Curated Data
+  - Poor understanding
+  - Data Pollution
+  - Conceptual errors
+  - Poor data monitoring
+
+### Data Structures
+
+From lower to higher abstraction levels:
+
+ - Raw sources
+ - Logs
+ - Stars and Snowflakes
+ - Cubes
+ - Longitudinal
+ - Domain Collections
+

@@ -14,7 +14,9 @@ Teko is looking for a highly motivated hands-on Analytics engineer. This positio
  - Experience with ETL pipelines to transform data from a variety of data sources to a normalized form
  - Extended experience of software development (Python, Scala)
  - Experience with database design and SQL/NoSQL datastores
+ - Experience with API design (e.g. Flask)
  - Experience with Cassandra.
+ - Experience with Redis.
  - Experience with Pandas.
  - Experience with Spark.
  - Experience with Jupyter.
@@ -28,8 +30,8 @@ Natural aptitude for both teaching and learning from others in a collaborative t
 
 #### Hiring Test
 Download the dataset of taxi trips in New York  https://www.kaggle.com/kentonnlp/2014-new-york-city-taxi-trips
-Write a notebook with descriptive queries in Spark, Pandas and visualize the results (matplotlib, bokeh, holoviews, seaborn).
-Bonus: Expose the result in a web dashboard using Dash (https://dash.plot.ly/)
+
+Write a notebook with descriptive queries in Spark and/or Pandas and visualize the results (matplotlib, bokeh, holoviews, seaborn). Bonus: Expose the result in a web dashboard.
 
 #### Contact
 Provide the repo (github, gitlab, etc) of your solution to the hiring test, attach your latest CV to your email and send it to tuyendung@teko.vn hashtag #datateam in the subject line

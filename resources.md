@@ -2,7 +2,9 @@
 
 ## Learning
 
-Personally, I think the best guides today are on the web, either in the form of webbooks, articles, but above all as docs, tutorials, and get started pages from their respective project websites. Nonetheless, I am listing here below a number of bespoken books for data engineering and analytics for bed time reading. Next to that you will find a list of web resources for further digging.
+### Getting started
+
+### Web
 
 ### Books
 
@@ -55,7 +57,7 @@ Personally, I think the best guides today are on the web, either in the form of 
  - React / Redux
    - [React Design Patterns and Best Practices](https://www.amazon.com/_/dp/1786464535)
    - [Learning React](https://www.amazon.com/_/dp/1491954620)
- - Angular
+ - Angular resources
    - [Learn Angular: The Collection](https://www.amazon.com/_/dp/B07DTXNJRY)
  - Polymer
 
@@ -79,7 +81,7 @@ Personally, I think the best guides today are on the web, either in the form of 
  - [Numpy & Scipy](https://docs.scipy.org/doc/)
  - [Dask](https://dask.pydata.org/en/latest/docs.html)
 
-### Data Stores
+### Data Stores resources
 
  - [Minio](https://minio.io/)
  - [Redis](https://redis.io/)

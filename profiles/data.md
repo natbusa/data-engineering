@@ -8,7 +8,7 @@ Teko is looking for a highly motivated hands-on Data engineer. This position is 
  - Manage, backup and monitor Storage services and filesystems like S3, Cassandra and Redis Tables, and object stores for data analytics
  - Understand, debug and patch big data files and objects in multiple formats (Parquet, HDF, Arrow)
  - Build, maintain and deploy data science frameworks
- - Automate ETL pipelines and ML workflows
+ - Automate, and Monitor ETL pipelines and ML workflows
 
 #### Qualifications
  - BS in Computer Science or similar field of study
